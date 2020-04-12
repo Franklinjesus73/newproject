@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*TIPO DE LETRA DEL TITULO*/
+h1 {
+    font-family: fantasy;
+    text-align: center;
+}
+/*IMAGEN DE HEADER*/
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(https://picjumbo.com/wp-content/uploads/red-fireworks-2210x1473.jpg)
+}
+/*TAMANO DE LA IMAGEN DEL HEADER*/
+header img {
+    width:100%;
+    height:auto;
+}
+/*ALINEACION Y COLOR DE FONDO DE HEADER, MAIN Y FOOTER*/
+header, .main, footer {
+    background-color: crimson;
+    width: 95%;
+    margin: 20px auto;
+    max-width: 1000px;
+    overflow: hidden;            
+}
+/*COLOR DE LA BARRA DE NAVEGACION*/
+header nav {
+    background-color: white;
+    overflow: hidden;
+}
+/*ELIMINACION DE LOS PUNTOS DE LOS ELEMENTOS DE LA LISTA*/
+header nav ul {
+    list-style: none;
+}
+/*FORMATO, COLOR Y TIPO DE LETRA DE LA BARRA DE NAV*/
+header nav ul li a {
+    float: left;
+    padding: 20px 50px;
+    text-decoration: none;
+    display: block;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*COLOR CUANDO PASA EL MOUSE POR LA BARRA DE NAV*/
+header nav ul li a:hover {
+    background-color: rgb(161, 161, 161);
+    font-size: 20px;
+    font-weight: bold;
+ }
+
